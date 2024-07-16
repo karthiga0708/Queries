@@ -15,9 +15,26 @@
   - A cookie that holds a session ID is typically deleted after the session has been terminated
 
 ## What is poor management?
-
+  - Poor session management refers to the mishandling of user sessions in a web application, which can lead to various security vulnerabilities and usability issues.
+  - A user session typically starts when a user logs into a web application and ends when they log out.
+  - Effective session management ensures that the user's session is secure and properly tracked.
 
 ## Types of anti-CSRF
+Anti-CSRF includes authentication fundamentals
+  -  Cookie-based authentication
+  -  Token-based authentication
+Antiforgery in ASP.NET Core
+Antiforgery with AddControllers
+Configure antiforgery with AntiforgeryOptions
+Generate antiforgery tokens with IAntiforgery
+
+  Link for more - (https://learn.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-8.0#antiforgery-in-aspnet-core)
+  
+CSRF protection with custom headers 
+  -  X-Requested-By
+  -  X-XSRF-Header
+  -  Access-Control-Allow-Credentials
+  -  Access-Control-Allow-Origin
 
 ## same-origin policy in detail?(best practices, sytax, 5wh)
 
