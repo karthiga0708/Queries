@@ -6,4 +6,7 @@
   - Web servers that issue session IDs use various methods to persist the IDs throughout the life of the session.
   - The most common approach is to store the session ID as a cookie on the user's browser.
   - A cookie is a small amount of data that contains information about the user, session, environment or user's activity.
-  -  A cookie that holds a session ID is typically deleted after the session has been terminated
+  - A cookie that holds a session ID is typically deleted after the session has been terminated
+
+## What is poor management?
+  - 
