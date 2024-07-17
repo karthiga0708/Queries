@@ -147,7 +147,6 @@ Reference: https://blog.hubspot.com/website/cms-architecture
   
 ## SSTI
 
-
 ## Arbitary code and obfusicated code (diff)
 
 
