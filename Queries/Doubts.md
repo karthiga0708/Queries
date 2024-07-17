@@ -31,7 +31,6 @@ Generate antiforgery tokens with IAntiforgery
   Link for more - (https://learn.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-8.0#antiforgery-in-aspnet-core)
   
 CSRF protection with custom headers 
-  -  X-Requested-By
   -  X-XSRF-Header
   -  Access-Control-Allow-Credentials
   -  Access-Control-Allow-Origin
