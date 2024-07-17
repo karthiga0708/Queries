@@ -147,7 +147,10 @@ Reference: https://blog.hubspot.com/website/cms-architecture
   
 ## SSTI
 
-## Arbitary code and obfuscated code (diff)
+## Arbitrary code and obfuscated code (diff)
+### Arbitrary code
+  - Arbitrary code refers to computer code or instructions that can be executed on a machine without any restrictions.
+  - When someone says they can execute "arbitrary code," it typically means they have the ability to run any command or code they choose on a system, which can lead to various outcomes depending on the intent of the person executing it.
 
 
 ### obfuscated code
