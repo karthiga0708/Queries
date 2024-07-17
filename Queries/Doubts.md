@@ -46,6 +46,39 @@ Generate antiforgery tokens with IAntiforgery
       XMLHttpRequest: An XMLHttpRequest can only make network requests to the same origin unless CORS (Cross-Origin Resource Sharing) is used.
       Web Storage: Local storage and session storage are origin-specific.
 
+### Syntax
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'http://example.com/data', true); // This will work if the request is to the same origin.
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          console.log(xhr.responseText);
+        }
+      };
+      xhr.send();
+
+
+### Best practice
+  - Use CORS Properly: When cross-origin requests are necessary, configure CORS on the server side to allow specific origins, methods, and headers.
+
+    ### Syntax
+        Access-Control-Allow-Origin: https://anotherdomain.com
+        Access-Control-Allow-Methods: GET, POST
+        Access-Control-Allow-Headers: Content-Type
+
+  - Validate and Sanitize Data: Always validate and sanitize data on the server side to prevent cross-site scripting (XSS) and other attacks.
+
+  - Use Secure Cookies: Set the SameSite attribute for cookies to Strict or Lax to control how cookies are sent with cross-site requests.
+    ### Syntax
+        Set-Cookie: sessionId=abc123; SameSite=Strict; Secure; HttpOnly
+
+  - Adopt Secure Protocols: Use HTTPS to ensure data integrity and confidentiality in transit.
+
+  - Content Security Policy (CSP): Implement CSP headers to restrict the sources from which resources can be loaded.
+
+    ### Syntax
+        Content-Security-Policy: default-src 'self'
+  
+
 ## CMS doc(why and how it used) and architecture
 
 ## SSTI
