@@ -39,6 +39,13 @@ Generate antiforgery tokens with IAntiforgery
   - The Same-Origin Policy (SOP) is a security measure implemented in web browsers to prevent malicious scripts on one page from accessing data on another page unless they share the same origin.
   - This policy helps protect the confidentiality and integrity of information by restricting how documents or scripts loaded from one origin can interact with resources from another origin.
 
+### Key Areas Affected by SOP
+
+    - DOM Access: A script can only read properties of windows and documents that have the same origin
+    - Cookies: Cookies are accessible only to the origin that set them.
+    - XMLHttpRequest: An XMLHttpRequest can only make network requests to the same origin unless CORS (Cross-Origin Resource Sharing) is used.
+    - Web Storage: Local storage and session storage are origin-specific.
+
 ## CMS doc(why and how it used) and architecture
 
 ## SSTI
