@@ -89,6 +89,18 @@ Generate antiforgery tokens with IAntiforgery
 ### CMS Architecture
   - CMS architecture refers to the design and implementation of frontend and backend processes within CMS systems.
   - CMS architecture defines the relationship between the tools used to publish and manage posts and pages with those used to create and edit them — the frontend and the backend.
+
+CMS Architecture include
+
+        Content Repository
+        Content Management Application (CMA)
+        Content Delivery Application (CDA)
+        Templates/Themes
+        Plugins/Extensions
+        API Layer
+        User Interface
+        Security Layer
+        
 ### Types of CMS Architecture
 
 There are five basic types of CMS architecture:
