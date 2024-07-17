@@ -80,7 +80,27 @@ Generate antiforgery tokens with IAntiforgery
   
 
 ## CMS doc(why and how it used) and architecture
+  - Content Management Systems (CMS) are software applicatio that allow users to create, manage, and modify content on a website without needing specialized technical knowledge.
+  - It hosted either in the cloud as a SaaS product or on- premise.
+  - They provide an intuitive interface and various tools that simplify content creation, storage, editing, and publishing.
+  - Without a content management system, you’d need to write a static HTML file and upload it to your server
+  - With a content management system like WordPress, you can just write your content in an interface
 
+### CMS Architecture
+  - CMS architecture refers to the design and implementation of frontend and backend processes within CMS systems.
+  - CMS architecture defines the relationship between the tools used to publish and manage posts and pages with those used to create and edit them — the frontend and the backend.
+### Types of CMS Architecture
+
+There are five basic types of CMS architecture:
+
+    Coupled (also called traditional)
+    Decoupled
+    Headless
+    Hybrid
+    SaaS
+
+
+  
 ## SSTI
 
 
