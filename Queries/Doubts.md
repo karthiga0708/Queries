@@ -147,8 +147,13 @@ Reference: https://blog.hubspot.com/website/cms-architecture
   
 ## SSTI
 
-## Arbitary code and obfusicated code (diff)
+## Arbitary code and obfuscated code (diff)
 
+
+### obfuscated code
+  - Is used to make something harder to understand and also for more difficult to attack.
+  - Obfuscation of source code is harder to replicate product if it is reverse engineered. It is not a strong control.
+  - It is an obstracle like encoding & often reversed by the same technique.
 
 ## where serialization is used & how, why
 
