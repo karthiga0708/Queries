@@ -22,8 +22,20 @@
           print(f"Error: {e}")
 
 
-## xml parser what & how
+## What is xml parser
+  - XML parser is a software library that reads XML documents and provides access to their structure and content for processing.
+  - XML parsers are used to transform XML data into a format that applications can use, such as objects or data structures.
+## How XML parser works
+   An XML parser works by reading an XML document and converting it into a structure that a computer program can manipulate. 
+Steps of XML Parsing
 
+      Loading the Document
+      Lexical Analysis (Tokenization)
+      Syntax Analysis
+      Building the Data Structure
+      Validation (Optional)
+      Providing Access to the Data
+      
 ## why to disallow custom DTD in xml parser
 
 ## Where did we use session id?
