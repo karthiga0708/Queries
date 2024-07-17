@@ -36,7 +36,8 @@ CSRF protection with custom headers
   -  Access-Control-Allow-Origin
 
 ## same-origin policy in detail?(best practices, sytax, 5wh)
-      The Same-Origin Policy (SOP) is a security measure implemented in web browsers to prevent malicious scripts on one page from accessing data on another page unless they share the same origin. This policy helps protect the confidentiality and integrity of information by restricting how documents or scripts loaded from one origin can interact with resources from another origin.
+      - The Same-Origin Policy (SOP) is a security measure implemented in web browsers to prevent malicious scripts on one page from accessing data on another page unless they share the same origin. 
+      This policy helps protect the confidentiality and integrity of information by restricting how documents or scripts loaded from one origin can interact with resources from another origin.
 
 ## CMS doc(why and how it used) and architecture
 
