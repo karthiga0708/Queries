@@ -1,6 +1,26 @@
 # Questions
 
 ## seperate data will store as entity or not
+  Yes, we can seperate a data or information from the file which we stored as entity in XML file. 
+
+    from defusedxml.ElementTree import parse, fromstring
+
+      xml_data = """<?xml version="1.0"?>
+      <!DOCTYPE root [
+          <!ENTITY exampleEntity SYSTEM "file://path/to/entity.xml">
+      ]>
+      <root>
+          <content>&exampleEntity;</content>
+      </root>
+      """
+      
+      try:
+          root = fromstring(xml_data)
+          content = root.find('content').text
+          print(f"Content: {content}")
+      except Exception as e:
+          print(f"Error: {e}")
+
 
 ## xml parser what & how
 
