@@ -31,9 +31,9 @@ Generate antiforgery tokens with IAntiforgery
   Link for more - (https://learn.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-8.0#antiforgery-in-aspnet-core)
   
 ### CSRF protection with custom headers 
-      - X-XSRF-Token
-      - Access-Control-Allow-Credentials 
-      - Access-Control-Allow-Origin
+      X-XSRF-Token
+      Access-Control-Allow-Credentials 
+      Access-Control-Allow-Origin
 
 ## same-origin policy in detail?(best practices, sytax)
   - The Same-Origin Policy (SOP) is a security measure implemented in web browsers to prevent malicious scripts on one page from accessing data on another page unless they share the same origin.
@@ -41,10 +41,10 @@ Generate antiforgery tokens with IAntiforgery
 
 ### Key Areas Affected by SOP
 
-    - DOM Access: A script can only read properties of windows and documents that have the same origin
-    - Cookies: Cookies are accessible only to the origin that set them.
-    - XMLHttpRequest: An XMLHttpRequest can only make network requests to the same origin unless CORS (Cross-Origin Resource Sharing) is used.
-    - Web Storage: Local storage and session storage are origin-specific.
+      DOM Access: A script can only read properties of windows and documents that have the same origin
+      Cookies: Cookies are accessible only to the origin that set them.
+      XMLHttpRequest: An XMLHttpRequest can only make network requests to the same origin unless CORS (Cross-Origin Resource Sharing) is used.
+      Web Storage: Local storage and session storage are origin-specific.
 
 ## CMS doc(why and how it used) and architecture
 
