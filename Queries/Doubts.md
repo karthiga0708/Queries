@@ -160,6 +160,23 @@ Reference: https://blog.hubspot.com/website/cms-architecture
   - It is an obstracle like encoding & often reversed by the same technique.
 
 ## where serialization is used & how, why
+  - Serialization is a mechanism of converting the state of an object into a byte stream.
+### Where
+  - Data Storage
+  - Network Communication
+  - Inter-process Communication
+  - Caching
+  
+### How
+  - Serialization is implemented using various methods and libraries, depending on the programming language and the specific requirements.
+  - Java provides built-in support for serialization through the Serializable interface.
+    
+          ObjectOutputStream (for serialization)
+          ObjectInputStream (for deserialization)
+    - Python provides the pickle module for serialization and deserialization of objects.
+### Why
+  - objects are composed of several components, saving or delivering all the parts typically requires significant coding effort, so serialization is a standard way to capture the object into a sharable format.
+  - With serialization, we can transfer objects: Over the wire for messaging use cases.
 
 ## SSRF & Types of SSRF blind, semi blind, non-blind
 
