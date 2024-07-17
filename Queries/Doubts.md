@@ -179,6 +179,20 @@ Reference: https://blog.hubspot.com/website/cms-architecture
   - With serialization, we can transfer objects: Over the wire for messaging use cases.
 
 ## SSRF & Types of SSRF blind, semi blind, non-blind
+  Server-side request forgery (SSRF) is an exploit where a threat actor abuses the functionality of a web application on the server-side, causing it to access or manipulate information. 
+### Types of SSRF
+      Blind SSRF
+      Semi blind SSRF
+      Non-blind SSRF
+### Blind SSRF
+  - A blind SSRF is a bit harder to track since nothing is sent from the server to the hacker
+  - He will have to use a vulnerability detection tool to check if the server is vulnerable.
+### Semi-Blind SSRF
+  - In this case, an SSRF request is made, and instead of sending back data, the server gives some permission for the bad actor to make changes to the server itself.
+### Non-Blind SSRF
+  - The most harmful of all is usually the non-blind SSRF. Data from an arbitrary URL can be exfiltrated and sent to the threat actors who made the query.
+  -  The non-blind SSRF enables hackers access to information that will help them launch other attacks.
+  
 
 
 
