@@ -99,7 +99,7 @@ There are five basic types of CMS architecture:
     Hybrid
     SaaS
 
-
+Reference: https://blog.hubspot.com/website/cms-architecture
   
 ## SSTI
 
