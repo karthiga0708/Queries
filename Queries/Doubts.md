@@ -37,6 +37,14 @@ Steps of XML Parsing
       Providing Access to the Data
       
 ## why to disallow custom DTD in xml parser
+      Prevention of XML External Entity
+      Reduced Risk of DoS Attacks
+
+  - DTDs are used to define the structure and allowed content of an XML document.
+  - Disallowing DTDs means you lose the ability to use DTDs for validation.
+  - You might need to switch to other schema languages like XML Schema Definition (XSD) or RELAX NG for validation purposes.
+  - Some XML features rely on DTDs for defining entities, attribute lists, and other document structures.
+  - Disabling DTDs could lead to reduced functionality or the need to redesign XML document formats to work without DTDs.
 
 ## Where did we use session id?
   - Session id is also known as session tokens, It is piece of code (unique identifier) that a web server assigns a user when they login. A session is a finite period of interaction between a client and server.
