@@ -120,7 +120,7 @@ Generate antiforgery tokens with IAntiforgery
   
 
 ## CMS doc(why and how it used) and architecture
-  - Content Management Systems (CMS) are software applicatio that allow users to create, manage, and modify content on a website without needing specialized technical knowledge.
+  - Content Management Systems (CMS) are software application that allow users to create, manage, and modify content on a website without needing specialized technical knowledge.
   - It hosted either in the cloud as a SaaS product or on- premise.
   - They provide an intuitive interface and various tools that simplify content creation, storage, editing, and publishing.
   - Without a content management system, you’d need to write a static HTML file and upload it to your server
