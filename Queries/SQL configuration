@@ -1,1 +1,23 @@
+Step1: Download phpMyadmin
+step2: In download, extract the zip file
+step3: start mysql and apache services
+step4: mv the extracted file to a folder called /usr/share/phpmyadmin
+step5: change the owner using & change the permission
+      chown -R www-data:www-data /usr/share/phpmyadmin
+      chmod -R 755 /usr/share/phpmyadmin
+step6: after that create new configuration file in apache for phpmyadmin
+       /etc/apache2/conf-available/phpmyadmin.conf 
+step7: open the file and put the below code after that open it in browser
+     <Directory "/usr/share/phpmyadmin">
+     order Deny Allow
+     Allow from localhost
+     Allow from 127.0.0.1
+     Allow from 192.168.173.27
+    </Directory>
+
+Alias /phpmyadmin /usr/share/phpmyadmin
+Alias /phpmyadmin /usr/share/phpmyadmin
+
+step8: sudo ln -s /usr/share/phpmyadmin/ /var/www/html/phpmyadmin
+
 
